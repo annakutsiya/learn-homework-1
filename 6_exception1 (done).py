@@ -21,5 +21,5 @@ def hello_user(answ):
             print('Пока')
             break
     
-# hello = input('Как дела?')
+
 print(hello_user('Плохо'))

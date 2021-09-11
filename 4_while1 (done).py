@@ -11,11 +11,11 @@
 
 
 def hello_user(answ):
-      # answ = input()
+      
       while True:
             if answ != 'Хорошо':
                   answ = input('Как дела?')
-                  # return answ
+                  
             else:
                   break
 hello = input('Как дела?')

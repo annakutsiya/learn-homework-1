@@ -19,13 +19,13 @@ questions_and_answers = {'Как дела?':'Нормально','Что дел�
 
 def ask_user(answers_dict):
     while True:
-          # question = input()
-          
-          if question == answers_dict.keys():
-                return answers_dict.get(question)
-          else:
-                break
-question = input()
+          question = input()
+          for i in list(answers_dict.keys()):
+              if question in i:
+                    return answers_dict.get(question)
+              else:
+                    break
+
 print(ask_user(questions_and_answers))
     
 
